@@ -2265,9 +2265,9 @@ var _classCallCheck2 = require('babel-runtime/helpers/classCallCheck'),
   _classCallCheck3 = _interopRequireDefault(_classCallCheck2),
   _createClass2 = require('babel-runtime/helpers/createClass'),
   _createClass3 = _interopRequireDefault(_createClass2);
-function _interopRequireDefault(e) {
-  return e && e.__esModule ? e : { default: e };
-}
+// function _interopRequireDefault(e) {
+//   return e && e.__esModule ? e : { default: e };
+// }
 var WindowDetector = (function() {
   (0, _createClass3['default'])(WindowDetector, null, [
     {
