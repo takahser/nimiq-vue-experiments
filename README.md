@@ -47,8 +47,8 @@ You may need an appropriate loader to handle this file type.
 | import type                      | code                             | `Nimiq` value                                                   | works                        |
 |----------------------------------|----------------------------------|-----------------------------------------------------------------|------------------------------|
 | single export from a module      | `import { Nimiq } from './nimiq'`  | `undefined`                                                       | No                           |
-| entire module as single variable | `import * as Nimiq from './nimiq'` | `undefined`                                                       | No                           |
-| importing default exports        | `import Nimiq from './nimiq'`      | `Module {__esModule: true, Symbol(Symbol.toStringTag): "Module"}` | Yes, but how to use `Nimiq`? |
+| importing default exports | `import Nimiq from './nimiq'` | `undefined`                                                       | No                           |
+| entire module as single variable        | `import * as Nimiq from './nimiq'`      | `Module {__esModule: true, Symbol(Symbol.toStringTag): "Module"}` | Yes, but how to use `Nimiq`? |
 
 - Conclusion: although it's possible to import the `Nimiq` module, it still doesn't seem usable. 
 
