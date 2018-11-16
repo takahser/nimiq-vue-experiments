@@ -40,8 +40,8 @@ You may need an appropriate loader to handle this file type.
 - If either of the two declaration of the `_interopRequireDefault` function **that are not anonymous** are removed (i.e. [L2268][0] or [L2377][1]), the code will execute. This resolves the original "Identifier '_interopRequireDefault' has already been declared" error.
 - TypeScript offers [various ways][2] to import a module.
   - single export from a module: `import { Bar } from "./Foo";`
-  - entire module as single variable: `import * as foo from "./foo";`
   - importing default exports: `import bar from "./foo" // imports foo's default export and makes it locally available as 'bar'`
+  - entire module as single variable: `import * as foo from "./foo";`
 - I tried all possible imports for Nimiq, results:
 
 | import type                      | code                             | `Nimiq` value                                                   | works                        |
