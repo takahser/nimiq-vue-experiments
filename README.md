@@ -1,4 +1,6 @@
-# nimiq-vue-experiments
+# nimiq vue experiments
+
+Reproduction repo for https://github.com/nimiq-network/core/issues/448
 
 ## Project setup
 ```
